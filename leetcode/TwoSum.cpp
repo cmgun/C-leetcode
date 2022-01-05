@@ -26,8 +26,9 @@ public:
                 map[key] = i;
             } else {
                 // find target-key
-                result.push_back(map[key]);
+                result.push_back(map[sub]);
                 result.push_back(i);
+                break;
             }
         }
         return result;
@@ -36,8 +37,8 @@ public:
 
 int main() {
     Solution test;
-    vector<int> a{ 2, 7, 11, 15 };
-    vector<int> result = test.twoSum(a, 9);
+    vector<int> a{ 3,2,4 };
+    vector<int> result = test.twoSum(a, 6);
     for (auto i = result.begin(); i < result.end(); i++) {
         cout <<  + *i << " ";
     }
