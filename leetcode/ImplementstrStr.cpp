@@ -5,7 +5,7 @@
 using namespace std;
 
 /**
-* https://leetcode-cn.com/problems/remove-element/
+* https://leetcode-cn.com/problems/implement-strstr/
 *
 */
 class Solution {
